@@ -1,4 +1,5 @@
-import ShinyEffect from "./components/ShinyEffect.js";
+import ShinyEffect from "./components/ShinyEffect/ShinyEffect.js";
+// import Shine from "./components/Shine/Shine";
 import logo from "./logo.svg";
 import Styles from "./App.module.css";
 import "./App.css";
@@ -12,6 +13,7 @@ function App() {
           Hover Effect
         </a>
         <ShinyEffect />
+        {/* <Shine /> */}
       </header>
     </div>
   );
