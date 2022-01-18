@@ -5,7 +5,6 @@
 .hoverText::before {
   background: hsl(193, 95%, 68%);
   content: "";
-  /* content: "Learn React"; */
   inset: 0;
   position: absolute;
   transform: scaleX(0);
