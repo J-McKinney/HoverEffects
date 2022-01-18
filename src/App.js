@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import Styles from "./App.module.css";
+import "./App.css";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+        </a>
+        <a className={Styles.hoverText} href="/">
+          Hover Effect
         </a>
       </header>
     </div>
