@@ -1,46 +1,35 @@
-/* .button {
-    padding: 20px;
-    text-align: center;
-    background-color: #61dafb;
-    color: black;
-    border-radius: 15px;
+.button {
+  position: relative;
+  appearance: none;
+  background: #f72359;
+  padding: 1em 2em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 100px;
 }
 
-.button:hover {
-    background-color: #fff;
-    color: #61dafb;
-} */
+.span {
+  position: relative;
+  background: #f7235900;
+}
 
-/* /////////////////////////////////////////// */
-.button {
-    position: relative;
-    appearance: none;
-    background: #f72359;
-    padding: 1em 2em;
-    border: none;
-    color: white;
-    font-size: 1.2em;
-    cursor: pointer;
-    outline: none;
-    overflow: hidden;
-    border-radius: 100px;
-  }
-  .span {
-    position: relative;
-    background: #f7235900;
-  }
-  .button::before {
-    --size: 0;
-    content: "";
-    position: absolute;
-    left: var(--x);
-    top: var(--y);
-    width: var(--size);
-    height: var(--size);
-    background: radial-gradient(circle closest-side, #4405f7, transparent);
-    transform: translate(-50%, -50%);
-    transition: width 0.2s ease, height 0.2s ease;
-  }
-  .button:hover::before {
-    --size: 400px;
-  }
+.button::before {
+  --size: 0;
+  content: "";
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #4405f7, transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.button:hover::before {
+  --size: 400px;
+}

@@ -32,7 +32,7 @@ function ShinyEffect() {
   return (
     <>
       <h2 onMouseOver={follow} id="button" className={Styles.button}>
-        Hover Button
+        Hover Button Effect
       </h2>
       <h3>
         Left: {x} | Top: {y}
