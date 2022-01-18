@@ -11,7 +11,7 @@ function App() {
         <a className={Styles.hoverText} href="/">
           Hover Effect
         </a>
-        <ShinyEffect>Hello</ShinyEffect>
+        <ShinyEffect />
       </header>
     </div>
   );
